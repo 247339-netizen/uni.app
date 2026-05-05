@@ -1,0 +1,13 @@
+def divide(a, b):
+    return a / b   # possible divide by zero
+
+def main():
+    x = 10
+    y = 0
+    
+    print("Result:", divide(x, y))  # error
+    
+    arr = [1, 2, 3]
+    print(arr[10])  # index out of range
+
+main()
